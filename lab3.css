@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+
+.header-footer {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  color: blue;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+.main-content {
+  width: 70%; 
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.sidebar {
+  width: 30%; 
+  background-color: #d3d3d3; 
+  margin: 10px;
+  padding: 20px;
+}
+
+.sidebar:hover {
+  background-color: #b0e0e6; 
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+}
+
+input[type="text"]:focus {
+  width: 300px; 
+  transition: width 0.3s ease; 
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+nav ul li a:hover {
+  background-color: #add8e6; 
+}
+
+
+.rules h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.rules ul {
+  list-style: none;
+}
+
+.rules ul li {
+  margin-bottom: 5px;
+}
